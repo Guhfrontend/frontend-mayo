@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.divTop {
+  padding-top: 70px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 130px;
+  }
+}
